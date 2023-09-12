@@ -1,0 +1,25 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+
+  margin: 0 auto;
+  width: min(80%, 52.5rem);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#app > header > h1 {
+  color: #996dff;
+  font-size: clamp(2.4rem, 3rem, 3.4rem);
+  font-weight: 700;
+  line-height: 3.4rem;
+}
+
+#app > header > img {
+  width: 6.4rem;
+}
